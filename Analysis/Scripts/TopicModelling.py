@@ -173,6 +173,7 @@ if __name__ == "__main__":
         lines_to_write.append("==============================\n")
         lines_to_write.append("NA ANGLISKI: \n")
         lines_to_write.append(pesna_eng)
+        lines_to_write.append("\n")
         lines_to_write.append(f"BEST TOPICS: {best_3_topics_eng}\n")
         lines_to_write.append(f"DESCRIPTION OF BEST TOPICS: \n")
         for topic in best_3_topics_eng:
@@ -182,6 +183,7 @@ if __name__ == "__main__":
         lines_to_write.append("==============================\n")
         lines_to_write.append("NA MAKEDONSKI: \n")
         lines_to_write.append(pesna_mk)
+        lines_to_write.append("\n")
         lines_to_write.append(f"NAJSOODVETNI TOPICS: {best_3_topics_mk}\n")
         lines_to_write.append(f"OPIS NA NAJDOBRITE TOPICS: \n")
         for topic in best_3_topics_mk:
